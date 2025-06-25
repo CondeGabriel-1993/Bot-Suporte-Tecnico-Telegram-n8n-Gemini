@@ -18,7 +18,9 @@ O foco principal é a automação com **low-code (n8n)** e a integração de **I
 
 ## ⚙️ Arquitetura do Sistema
 
-[**DIAGRAMA SIMPLES DO FLUXO:** Usuário -> Telegram -> n8n (Telegram Trigger -> Get row(s) in sheet -> **Code (Agregação FAQ)** -> AI Agent -> Telegram Send Message). Pode usar ferramentas como draw.io e adicionar a imagem na pasta `screenshots/`]
+Aqui está um diagrama simples do fluxo de dados e da arquitetura do sistema:
+
+![Diagrama da Arquitetura do Bot](screenshots/diagrama.png)
 
 ## 🚀 Como Funciona
 
@@ -77,7 +79,24 @@ O foco principal é a automação com **low-code (n8n)** e a integração de **I
 
 ## 🖼️ Screenshots do Workflow e Demonstração
 
-[**AQUI VOCÊ VAI ADICIONAR IMAGENS:** do seu workflow completo no n8n (com todos os nós visíveis), e screenshots/vídeos da interação com o bot no Telegram mostrando ele respondendo corretamente. Guarde essas imagens na pasta `screenshots/` e referencie-as aqui.]
+Esta seção conterá as imagens visuais do projeto.
+
+* **Workflow Completo no n8n:**
+    ![Workflow Completo no n8n](screenshots/workflow_full.png)
+* **Configuração do Telegram Trigger:**
+    ![Nó Telegram Trigger](screenshots/node_telegram_trigger.png)
+* **Configuração do Get row(s) in sheet:**  
+    ![Nó Google Sheets Get row(s) in sheet](screenshots/node_google_sheets.png)
+* **Código e Saída do Nó Code (Agregação FAQ):**  
+    ![Nó Code Agregação FAQ](screenshots/node_code_faq_aggregation.png)
+* **Configuração do AI Agent (Prompt e Mensagem do Usuário):**  
+    ![Nó AI Agent Prompt](screenshots/node_ai_agent_prompt.png)
+* **Configuração do Telegram Send Message:**  
+    ![Nó Telegram Send Message](screenshots/node_telegram_send_message.png)
+* **Exemplo de Interação no Telegram 1:**  
+    ![Interação no Telegram 1](screenshots/telegram_interaction_1.png)
+* **Exemplo de Interação no Telegram 2:**  
+    ![Interação no Telegram 2](screenshots/telegram_interaction_2.png)
 
 ## 💡 Próximos Passos e Melhorias Futuras
 
@@ -90,7 +109,7 @@ O foco principal é a automação com **low-code (n8n)** e a integração de **I
 
 Se você tiver alguma dúvida ou sugestão sobre este projeto, sinta-se à vontade para entrar em contato:
 
-* Gabriel Arten Conde
+* **Seu Nome:** Gabriel Arten Conde
 * **LinkedIn:** [https://www.linkedin.com/in/gabriel-arten-conde/](https://www.linkedin.com/in/gabriel-arten-conde/)
 * **Email:** [gabriel_x5@hotmail.com](mailto:gabriel_x5@hotmail.com)
 
