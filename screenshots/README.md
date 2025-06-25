@@ -12,6 +12,7 @@ Você encontrará aqui:
 * **`node_telegram_send_message.png`**: Configuração do nó "Telegram" para enviar a resposta.
 * **`telegram_interaction_1.png`**: Exemplo de interação do usuário com o bot no Telegram.
 * **`telegram_interaction_2.png`**: Mais um exemplo de resposta do bot.
+* **`diagrama.png`**: Diagrama de funcionamento do bot.
 
 Estas imagens complementam a documentação no `README.md` principal do repositório, oferecendo uma compreensão visual de como o bot foi construído e como ele opera.
 
